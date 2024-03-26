@@ -1,0 +1,8 @@
+1. git add *
+
+2. git status (optional)
+
+3. git commit -m "message here REQUIRED"
+
+4. git push 
+4. or? git push -origin main

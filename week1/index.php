@@ -1,26 +1,22 @@
-<!--<!DOCTYPE html>-->
-<!--<html>-->
-    <!--<head>-->
-        <!--<meta charset="UTF-8">-->
-    <!--</head>-->
-    <!--<body>-->
-            <!--<h1>SE 266 - Hello World</h1>-->
+<?php
 
-        <?php
 
-        //$greeting = 'Hello Universe';
 
-        //$name = "Chloe Brown";
+$animals = [
+    'dog',
+    'cat',
+    'bird',
+    'fish',
+    'rabbit'
+];
 
-        //echo "Hello, $name";
+require 'index.view.php';
 
-        $greeting = 'Hello';
 
-        $name = 'Chloe Brown';
 
-        echo "{$greeting}, {$name}";
-        ?>
-    <!--</body>-->
-    
 
-<!--</html>-->
+//week 1 mini task C instructions :
+
+//Complete and submit the exercise at the end of Episode 6 :
+    //Create an array of animals and display them on the page
+//at least 5 animals
