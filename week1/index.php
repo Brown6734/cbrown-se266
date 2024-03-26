@@ -2,17 +2,61 @@
 
 
 
-$animals = [
-    'dog',
-    'cat',
-    'bird',
-    'fish',
-    'rabbit'
+
+//for arrays, you can have a key value pair
+//the key is usually a string; the value describes what the string is
+//the value is the answer to the key
+
+//to add a new key and value pair to an array:
+// arrayName['keyYouWantToAdd'] = 'valueYouWantToAdd';
+
+//to remove a key and value pair from an array:
+// unset(arrayName['keyYouWantToRemove']);
+
+
+
+//die(####); -- does not show anything after the die function is called
+//var dump - dumps the array onto the screen
+//pre - will preserve the formatting
+
+
+$task = [
+
+    // 'age' => 19
+
+    'title' => 'go to the store',
+    'due' => 'today',
+    'assigned to' => 'Brandon',
+    'completed' => 'no'
 ];
+
+
+
+//make an associative array that contains details about the task
+//including :
+
+//make an associative array that contains details about the task
+//they inlcude
+
+//the title of the task; when the task is due
+//who the task is assigned to; whether or not it is completed 
+
+
 
 require 'index.view.php';
 
 
+/*
+
+Week 1 mini task D: 
+
+Create an associative array
+
+assign it to a task variable
+
+properly display the task
+
+*/ 
 
 
 //week 1 mini task C instructions :

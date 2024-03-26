@@ -18,19 +18,39 @@
     <body>
     
             <ul>
-
-                <!--below: 
-                    is a way to call the animals array from the index.php file
-
-                -->
-                <?php foreach ($animals as $animal) : ?>
-                   
-                   <li><?= $animal; ?></li>
                 
-                <?php endforeach; ?>
+        
+            </ul>
 
-                
+            <!--unordered list for task array-->
 
+            <ul>
+
+                    
+
+                        <!--php section for task array-->
+                        <!--for each $task as $question => $answer-->
+
+                        <!--<li> <strong> <//?= question; //?//>// </strong> <//?= answer; //?//> </li>-->
+
+                        <?php foreach ($task as $question => $answer) : ?>
+
+                            <li> <strong> <?= $question; ?> </strong> <?= $answer; ?> </li>
+                        
+                        <?php endforeach; ?>
+
+
+                        <!--title => 'go to the store',-->
+                        <!--due => 'today',-->
+                        <!--assigned_to => 'Brandon',-->
+                        <!--completed => 'no'-->
+
+                        <!--key, value-->
+                        <!--key = description? not title; question? -->
+                        <!--value = answer? response? reply?-->
+                    
+                    
+                    
 
             </ul>
     
