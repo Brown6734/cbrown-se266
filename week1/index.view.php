@@ -2,57 +2,44 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Brown: Week 1 Task C</title>
+        <title>Brown: Week 1 Tasks</title>
 
-        <style>
-
-            /*below is some styling for the HTML header*/
-            header{
-                background: #e3e3e3;
-                padding: 2em;
-                text-align: center;
-            }
-
-        </style>
+        
     </head>
     <body>
-    
-            <ul>
-                
-        
-            </ul>
-
-            <!--unordered list for task array-->
-
-            <ul>
-
-                    
-
-                        <!--php section for task array-->
-                        <!--for each $task as $question => $answer-->
-
-                        <!--<li> <strong> <//?= question; //?//>// </strong> <//?= answer; //?//> </li>-->
-
-                        <?php foreach ($task as $question => $answer) : ?>
-
-                            <li> <strong> <?= $question; ?> </strong> <?= $answer; ?> </li>
-                        
-                        <?php endforeach; ?>
 
 
-                        <!--title => 'go to the store',-->
-                        <!--due => 'today',-->
-                        <!--assigned_to => 'Brandon',-->
-                        <!--completed => 'no'-->
+    <!--
 
-                        <!--key, value-->
-                        <!--key = description? not title; question? -->
-                        <!--value = answer? response? reply?-->
-                    
-                    
-                    
+    'title' => 'go to the store',
+    'due' => 'today',
+    'assigned to' => 'Brandon',
+    'completed' => false
 
-            </ul>
+    -->
+        <h1>Task For The Day</h1>
+
+        <ul>
+
+            <li>
+                <strong>Name: </strong> <?= $task['title']; ?>
+            </li>
+
+            <li>
+                <strong>Due Date: </strong> <?= $task['due']; ?>
+            </li>
+
+            <li>
+                <strong>Person Responsible: </strong> <?= $task['assigned to']; ?>
+            </li>
+
+            <li>
+                <strong>Status: </strong> <?= $task['completed'] ? 'Complete' : 'Incomplete'; ?>
+            </li>
+        </ul>
+
+
+            
     
     </body>
     

@@ -27,7 +27,8 @@ $task = [
     'title' => 'go to the store',
     'due' => 'today',
     'assigned to' => 'Brandon',
-    'completed' => 'no'
+    'completed' => false
+
 ];
 
 
@@ -43,8 +44,24 @@ $task = [
 
 
 
+
+
+
 require 'index.view.php';
 
+
+
+
+/*
+
+Week 1 task E:
+
+Complete and submit the exercise at the end of Episode 9 :
+
+    Display the task variable with a nice checkbox if the task is completed
+
+
+*/
 
 /*
 
