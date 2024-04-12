@@ -1,0 +1,269 @@
+/*
+
+//classes: 
+//body, h1, h2
+//ul1; nameTitle; gitRepoLink; phpResources; gitResources; littleLeft; looksGood; donutCounty; week1; week2; week3; week4; week5; week6; week7; week8; week9; week10;
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200&display=swap');
+
+body {
+    background-color:darkslategrey;
+    color:lightskyblue;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    /*font-family: 'Courier New', Courier, monospace;*/
+}
+
+h2{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    /*font-family: 'Courier New', Courier, monospace;*/
+}
+
+a:link{
+    color:lightskyblue;
+}
+a:visited{
+    color:white;
+}
+a:hover{
+    color:lightpink;
+}
+a:active{
+    color:khaki;
+}
+
+.ul1{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkslategrey;
+   
+}
+
+.nameTitle{
+    /*color:darksalmon;*/
+    /*border: 2px solid aquamarine;*/
+    
+    max-width: 250px;
+    margin-bottom: 15px;
+    padding: 10px 10px 10px 10px;
+    
+    
+}
+
+/*class name: gitRepoLink */
+.gitRepoLink{
+    
+    max-width: 150px;
+    margin-bottom: 15px;
+    padding: 10px 10px 10px 10px;
+}
+
+/*class name: phpResource1 */
+.phpResource1{
+    
+    max-width: 150px;
+    margin-bottom: 15px;
+    padding: 10px 10px 10px 10px;
+}
+
+/*class name: phpResource2 */
+.phpResource2{
+    
+    max-width: 300px;
+    margin-bottom: 15px;
+    padding: 10px 10px 10px 10px;
+}
+
+/*class name: phpResource3 */
+.phpResource3{
+    
+    max-width: 250px;
+    margin-bottom: 15px;
+    padding: 10px 10px 10px 10px;
+}
+
+/*class name: gitResource1 */
+.gitResource1{
+    
+    max-width: 250px;
+    margin-bottom: 15px;
+    padding: 10px 10px 10px 10px;
+}
+
+/*class name: gitResource2 */
+.gitResource2{
+    
+    max-width: 275px;
+    margin-bottom: 15px;
+    padding: 10px 10px 10px 10px;
+
+}
+
+/*class name: gitResource3 */
+.gitResource3{
+    
+    max-width: 425px;
+    margin-bottom: 15px;
+    padding: 10px 10px 10px 10px;
+}
+
+/*class name: littleLeft */
+.littleLeft{
+    
+    max-width: 375px;
+    margin-bottom: 15px;
+    padding: 10px 10px 10px 10px;
+}
+
+/*class name: looksGood */
+.looksGood{
+
+    max-width: 250px;
+    margin-bottom: 15px;
+    padding: 10px 10px 10px 10px;
+}
+
+/*class name: donutCounty */
+.donutCounty{
+    
+    max-width: 500px;
+    margin-bottom: 15px;
+    padding: 10px 10px 10px 10px;
+}
+
+/*class name: week1 */
+.week1{
+    
+    max-width: 200px;
+    margin-bottom: 15px;
+    
+    padding: 10px 10px 10px 10px;
+    margin-left: 800px;
+    margin-top: -600px;
+    /*margin-top: -100px;*/
+    font-family: "Reddit Mono", monospace;
+}
+
+/*class name: week2 */
+.week2{
+    
+    max-width: 200px;
+    margin-bottom: 15px;
+    padding: 10px 10px 10px 10px;
+    margin-left: 800px;
+    
+    font-family: "Reddit Mono", monospace;
+}
+
+/*class name: week3 */
+.week3{
+    
+    max-width: 200px;
+    margin-bottom: 15px;
+    padding: 10px 10px 10px 10px;
+    margin-left: 800px;
+    
+    font-family: "Reddit Mono", monospace;
+
+}
+
+/*class name: week4 */
+.week4{
+    
+    max-width: 200px;
+    margin-bottom: 15px;
+    padding: 10px 10px 10px 10px;
+    margin-left: 800px;
+    font-family: "Reddit Mono", monospace;
+}
+
+/*class name: week5 */
+.week5{
+    
+    max-width: 200px;
+    margin-bottom: 15px;
+    padding: 10px 10px 10px 10px;
+    margin-left: 800px;
+    font-family: "Reddit Mono", monospace;
+}
+
+/*class name: week6 */
+.week6{
+    
+    max-width: 200px;
+    margin-bottom: 15px;
+    padding: 10px 10px 10px 10px;
+    margin-left: 800px;
+    font-family: "Reddit Mono", monospace;
+}
+
+/*class name: week7 */
+.week7{
+    
+    max-width: 200px;
+    margin-bottom: 15px;
+    padding: 10px 10px 10px 10px;
+    margin-left: 800px;
+    font-family: "Reddit Mono", monospace;
+}
+
+/*class name: week8 */
+.week8{
+    
+    max-width: 200px;
+    margin-bottom: 15px;
+    padding: 10px 10px 10px 10px;
+    margin-left: 800px;
+    font-family: "Reddit Mono", monospace;
+}
+
+/*class name: week9 */
+.week9{
+    
+    max-width: 200px;
+    margin-bottom: 15px;
+    padding: 10px 10px 10px 10px;
+    margin-left: 800px;
+    font-family: "Reddit Mono", monospace;
+}
+
+/*class name: week10 */
+.week10{
+    
+    max-width: 200px;
+    margin-bottom: 15px;
+    padding: 10px 10px 10px 10px;
+    margin-left: 800px;
+    font-family: "Reddit Mono", monospace;
+}
+
+/*
+
+//classes: 
+//body, h1, h2
+//ul1; nameTitle; gitRepoLink; phpResources; gitResources; littleLeft; looksGood; donutCounty; week1; week2; week3; week4; week5; week6; week7; week8; week9; week10;
+
+fonts I might use:
+
+
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200&display=swap')
+font-family: "Reddit Mono", monospace;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap')
+font-family: "Tilt Neon", sans-serif;
+
+*/
+
+
+
