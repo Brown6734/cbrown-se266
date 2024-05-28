@@ -1,5 +1,5 @@
 <?php 
-    include (__DIR__ . '/db.php');
+    include (__DIR__ . '/QuizValuesDB.php');
 
     function getQuizValues(){
         global $db;

@@ -35,12 +35,12 @@
         </div>
 
         <div class="factsInfo">
-            <p>Facts Title Here</p>
+            <p>Facts Title and Questions</p>
             <ul class="factsList">
-                <li class="factsListItem">Fact Short Name - Fact Long in Here for text in text in text in text - User ID</li>
-                <li class="factsListItem">Fact Short Name - Fact Long in Here for text in text in text in text - User ID</li>
-                <li class="factsListItem">Fact Short Name - Fact Long in Here for text in text in text in text - User ID</li>
-                <li class="factsListItem">Fact Short Name - Fact Long in Here for text in text in text in text - User ID</li>
+                <li>
+                    <a href="view_IrelandFacts.php">View Ireland Facts</a>
+                    <a href="view_QuizValues.php">View Quiz Values</a>
+                </li>
             </ul>
         </div>
 

@@ -2,6 +2,7 @@
 include __DIR__ . '/model/model_IrelandFacts.php';
 
 
+
 if(isset($_POST['login'])){
     $username = filter_input(INPUT_POST, 'username');
     $password = filter_input(INPUT_POST, 'password');
@@ -25,40 +26,57 @@ if(isset($_POST['login'])){
     $username = '';
     $password = '';
 }
+
     
 
 ?>
 
-<form name="login_form" method="post">
-    <h2>Login</h2>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+        <body>
+    
 
-    <?php if(!empty($error_message)): ?>
-        <p><?= htmlspecialchars($error_message); ?> </p>
-    <?php endif; ?>
 
-    <div class="wrapper">
-        <div class="userLabel">
-            <label>Username: </label>
-        </div>
+            <form name="login_form" method="post">
 
-        <div class="userInput">
-            <input type="text" name="username" value="<?= htmlspecialchars($username); ?>"/>
-        </div>
+                <h2>Login</h2>
 
-        <div class="passLabel">
-            <label>Password: </label>
-        </div>
+                <?php if(!empty($error_message)): ?>
+                    <p><?= htmlspecialchars($error_message); ?> </p>
+                <?php endif; ?>
 
-        <div class="passInput">
-            <input type="password" name="password" value="<?= htmlspecialchars($password); ?>"/>
-        </div>
+                <div class="container">
+                    <div class="userLabel">
+                        <label>Username: </label>
+                    </div>
 
-        <div class="space1"> &nbsp; </div>
+                    <div class="userInput">
+                        <input type="text" name="username" value="<?= htmlspecialchars($username); ?>"/>
+                    </div>
 
-        <div class="loginButton">
-            <input type="submit" name="login" value="login"/>
-        </div>
+                    <div class="passLabel">
+                        <label>Password: </label>
+                    </div>
 
-    </div>
+                    <div class="passInput">
+                        <input type="password" name="password" value="<?= htmlspecialchars($password); ?>"/>
+                    </div>
 
-</form>
+                    <div class="space1"> &nbsp; </div>
+
+                    <div class="loginButton">
+                        <input type="submit" name="login" value="login"/>
+                    </div>
+
+                </div>
+
+            </form>
+
+        </body>
+</html>

@@ -20,6 +20,7 @@
         global $db;
         $result = "";
 
+        var_dump($db);
         $sql = "INSERT INTO IrelandFacts set factShortName = :factShortName, factLong = :factLong";
         $stmt = $db->prepare($sql);
 
