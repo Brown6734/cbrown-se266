@@ -6,3 +6,26 @@
 
 4. git push 
 or 4. git push origin main
+
+--------------
+
+Users Table:
+UserID primary key
+username varchar30
+password varchar30
+
+Quiz Values Table"
+QuizID primary key
+question varchar90
+correctAnswer varchar90
+wrongAnswer1 varchar90
+wrongAnswer2 varchar90
+wrongAnswer3 varchar90
+FactsID foreign key
+UserID foreign key
+
+Fact table:
+FactsID primary key
+UserID foreign key
+factShortName varchar60
+factLong varchar160
